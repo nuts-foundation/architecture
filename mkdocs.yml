@@ -7,6 +7,7 @@ edit_uri: edit/main/docs/
 
 nav:
   - Welcome: index.md
+  - Sandbox: sandbox.md
 
 markdown_extensions:
   - admonition
@@ -28,3 +29,4 @@ theme:
 theme:
   name: material
   logo: assets/logo.avif
+  custom_dir: overrides
