@@ -1,1 +1,5 @@
 site_name: Nuts Architectural Documentation
+
+site_url: https://nuts-foundation.github.io/architecture/
+theme:
+  name: material
