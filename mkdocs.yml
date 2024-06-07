@@ -19,15 +19,11 @@ extra_css:
 
 theme:
   name: material
-  language: en
+  logo: assets/logo.avif
+  custom_dir: overrides
   favicon: assets/favicon.png
   features:
     - content.action.view
     - content.action.edit
   palette:
     primary: custom
-
-theme:
-  name: material
-  logo: assets/logo.avif
-  custom_dir: overrides
