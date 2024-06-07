@@ -1,5 +1,30 @@
 site_name: Nuts Architectural Documentation
 
 site_url: https://nuts-foundation.github.io/architecture/
+
+repo_url: https://github.com/nuts-foundation/architecture
+edit_uri: edit/main/docs/
+
+nav:
+  - Welcome: index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - assets/extra.css
+
 theme:
   name: material
+  language: en
+  features:
+    - content.action.view
+    - content.action.edit
+  palette:
+    primary: custom
+
+theme:
+  name: material
+  logo: assets/logo.avif
